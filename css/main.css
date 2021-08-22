@@ -46,7 +46,7 @@ body {
     margin-bottom: 25px;
 }
 
-.plan-box {
+.plan-section {
     background-color: hsl(225, 100%, 98%);
     border-radius: 12px;
     display: flex;
@@ -55,34 +55,34 @@ body {
     justify-content: space-between;
 }
 
-.plan-box-left {
+.plan-section-left {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
-.plan-box-left div {
+.plan-section-left div {
     margin-left: 20px;
 }
 
-.plan-box-left div h5 {
+.plan-section-left div h5 {
     font-weight: 900;
     font-size: 15px;
     color: hsl(223, 47%, 23%);
 }
 
-.plan-box-left div p {
+.plan-section-left div p {
     font-size: 14px;
     color: #8a8a8a;
 }
 
-.plan-box a {
+.plan-section a {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     transition: color .3s ease;
 }
 
-.plan-box a:hover {
+.plan-section a:hover {
     text-decoration: none;
     color: hsl(245, 75%, 52%);
 }
@@ -127,17 +127,17 @@ a.cancel-btn:hover {
         font-size: 23px;
     }
 
-    div.plan-box {
+    div.plan-section {
         padding: 12px;
     }
 
-    .plan-box-left div {
+    .plan-section-left div {
         margin-left: 10px;
     }
 
     a.proceed-btn,
     a.cancel-btn,
-    .plan-box a {
+    .plan-section a {
         font-size: 13px;
     }
 
@@ -146,29 +146,3 @@ a.cancel-btn:hover {
     }
 }
 
-/* Youtube link */
-.link {
-    position: fixed;
-    background-color: #D12322;
-    padding: 23px 40px;
-    right: -87px;
-    border-radius: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    transform: rotate(-90deg);
-    font-size: 18px;
-    font-weight: 500;
-    color: #FFF;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all .1s ease-in-out;
-}
-
-.link i {
-    padding-left: 7px;
-}
-
-.link:hover {
-    text-decoration: underline;
-    background-color: black;
-}
